@@ -14,9 +14,6 @@ export default function checkuser(state) {
   if (user) {
     localStorage.setItem("user", JSON.stringify(user));
     window.location.replace("/home");
-  } else {
-    localStorage.clear();
-    window.location.replace("/login");
   }
 
   return user;

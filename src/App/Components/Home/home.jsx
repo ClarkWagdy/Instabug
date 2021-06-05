@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import './home.css';
 class Home extends Component {
     state = { user:{} }
-    componentDidMount(){
+    componentDidMount()
+    {
         const user=JSON.parse(localStorage.getItem("user"));
         if(user){
 this.setState({user});

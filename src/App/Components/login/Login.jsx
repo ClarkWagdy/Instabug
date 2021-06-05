@@ -7,12 +7,16 @@ import Joi from "joi-browser";
 import $ from "jquery";
 import checkuser from './checkuser';
 class Login extends Component {
-  state = {
+
+ 
+ 
+    state = {
     email: "",
     password: "",
     errors: {},
     err: "",
   };
+
   schema = {
     email: Joi.string()
       .email()
@@ -62,8 +66,6 @@ class Login extends Component {
     this.validate();
     const errors = this.validate();
     if (errors) return;
-
-    //Call Backend
     const state = { ...this.state };
     delete state.errors;
     delete state.users;
@@ -89,12 +91,7 @@ else{
 }
 
   }
-componentDidMount(){
-    const state=JSON.parse(localStorage.getItem("user"));
-    if(state){
-    checkuser(state) ;
-    }
-}
+
 scroll(){
     $('html, body').animate({ scrollTop: $("#target" ).offset().top}, 1000);
 }

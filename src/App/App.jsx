@@ -7,24 +7,22 @@ import Notfound from './Components/Notfound/Notfound';
 
 
 
+
 class App extends Component {
 
-
   state = {
-  
+  user:JSON.parse(localStorage.getItem("user"))
   };
 
 
   render() {
-  
       return (<React.Fragment>
 
 <Switch>
-              <Route path="/login" exact render={(props) => (
-               <Login {...props} />
-              )}/>
+              <Route path="/login" exact render={(props) => this.state.user?(window.location.replace("/home") ):( <Login {...props} />)
+              }/>
 
-<Route path="/home"  exact render={(props) => (<Home {...props}/>)}/>
+<Route path="/home"  exact render={(props) => this.state.user?(<Home {...props}/>):(window.location.replace("/login")) } />
          
 <Redirect from="/" exact to="/home"></Redirect>
          <Route to="/404" component={Notfound}/>
