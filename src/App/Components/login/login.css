@@ -1,0 +1,271 @@
+.login-container{
+   
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.half{
+    width: 100%;
+    height: 100vh;
+    
+}
+#arr-down-phone{
+display: none;
+}
+@media only screen and (max-width: 1199px) {
+    .login-container{
+   
+        display: flex;
+     flex-direction: column;
+  
+    }
+#arr-down-phone{
+    display: block;
+}
+}
+.slide{
+ background-color: #002276;
+ width: 100%;
+ height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.img-size{
+    width: 90% !important;
+   
+}
+.m-img{
+    max-width: 70%;
+}
+.paddingmargin{
+    padding: 0;
+    margin: 0;
+}
+.text{
+    color: white;
+    font-size: 24px;
+    margin: 30px 0 30px 0;
+    letter-spacing: 1px;
+
+}
+.control-dots .dot{
+    background-color: transparent !important;
+    border:1px solid white !important ;
+width: 9px !important;
+height: 9px !important;
+box-shadow: 0 0 0 0 !important;
+}
+.control-dots .selected{
+    background-color: white !important;
+    
+}
+
+.down-icon{
+    height: 50px !important;
+    width: 50px !important;
+}
+.down-arrow{
+    text-align: center;
+
+    background-color: rgba(255,255,255, 0.2);
+border-radius: 50%;
+}
+.login-side{
+padding: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.login-data{
+    width: 100%;
+    margin:5x 0 5x 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.button-login{
+    width: 100% ;
+height: 35px;
+margin: 3px 0 3px 0;
+border-radius: 5px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+
+}
+.login-way-icon{
+height: 25px;
+}
+.login-tex-icon{
+    display: flex;
+align-items: center;
+
+
+
+   
+}
+.btn-google{
+    background-color: #4285F4;
+color: white;
+
+
+}
+
+.btn-google:hover{
+    border: #4285F4 solid 1px;
+background-color: transparent;
+color: #4285F4;
+}
+.btn-tex{
+    width: 93%;
+}
+.btn-icon{
+    width: 5%;
+    
+}
+
+.btn-git{
+background-color: #333333;
+color: white;
+}
+.btn-git:hover{
+    border: #333333 solid 1px;
+background-color: transparent;
+color: #333333;
+}
+
+.microsoft {
+    background-color: #f25022;
+    box-shadow: 
+        10px 0 0 0 #7fba00, 
+        0 10px 0 0 #00a4ef, 
+        10px 10px 0 0 #ffb900;
+    height: 25px;
+    width: 25px;
+}
+.btn-microsoft{
+    border: #333333 solid 1px;
+    background-color: transparent;
+    color: #333333;}
+
+    .btn-microsoft:hover{
+        background-color: #333333;
+        color: white;
+    }
+    .hr{
+        width: 100%; 
+        font-weight: bold;
+        text-align: center; 
+        border-bottom: 1px solid rgba(000,000,000, 0.2); 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+    }
+    .hr  span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+    .d-inline{
+        display: inline;
+    }
+    .inp-lab{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: start;
+        margin: 5px 0 15px 0;
+
+    }
+    .inp-lab label{
+        cursor: pointer;
+    }
+    .input-login{
+        padding: 3px 3px 3px 10px;
+        margin: 2px 0 2px 0 ;
+border-radius: 5px;
+border:1px solid rgba(0,0,0, 0.4);
+outline-style: none;
+height: 30px;
+    }
+
+    .input-login:focus{
+        border-color:#1cc5dc !important;
+        box-shadow: inset 0px 0px 5px #1cc5dc;
+       
+    }
+
+    .input-error{
+        border:1px solid tomato;
+        padding: 3px 3px 3px 10px;
+        box-shadow: inset 0px 0px 5px tomato !important;
+        margin: 2px 0 2px 0 ;
+        border-radius: 5px;
+        outline-style: none;
+        height: 30px;
+    }
+    .forget-pass{
+opacity: 0.7;
+color: black;
+text-decoration: none;
+font-size: 14px;
+    }
+    .lable-lab{
+        display: flex;
+        justify-content: space-between;
+    align-items: flex-end;
+    }
+    .btn-login{
+        color: white;
+        font-weight: bold;
+        background-color: #0089E5;
+    }
+    .btn-login:disabled{
+        color: white;
+        font-weight: bold;
+        background-color: #CCCCCC;
+    }
+    .signup-line{
+        padding: 0;
+        margin: 3px 0 3px 0;
+        font-size: 15px;
+    }
+    .signup{
+        color: #1E96E8;
+text-decoration: none;
+
+    }
+    .btn-login:disabled{
+        cursor: not-allowed;
+    }
+    .trusted-company{
+        opacity: 0.5;
+    }
+   
+.logos{
+    opacity: 0.;
+    margin:0 ;
+}
+.error{
+    color: tomato;
+    font-size: 15px;
+}
+.boxerrer{
+    display: flex;
+    align-items: center;
+    color: #323232;
+    padding: 2px  2px  2px 10px;
+    height: 30px;
+    border:1px solid tomato;
+    border-radius: 5px;
+    background-color: rgba(245,71,72,0.2);
+}
