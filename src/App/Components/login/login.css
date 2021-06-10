@@ -24,7 +24,13 @@ display: none;
 #arr-down-phone{
     display: block;
 }
+.text{
+    margin: 0;
+    flex-wrap: wrap;
 }
+}
+
+
 .slide{
  background-color: #002276;
  width: 100%;
@@ -51,8 +57,8 @@ display: none;
 }
 .text{
     color: white;
-    font-size: 24px;
-    margin: 30px 0 30px 0;
+    font-size: 23px;
+    margin: 50px 0 0px 0;
     letter-spacing: 1px;
 
 }
@@ -252,7 +258,7 @@ text-decoration: none;
     }
    
 .logos{
-    opacity: 0.;
+    opacity: 0.4;
     margin:0 ;
 }
 .error{
@@ -268,4 +274,25 @@ text-decoration: none;
     border:1px solid tomato;
     border-radius: 5px;
     background-color: rgba(245,71,72,0.2);
+}
+.car-slide{
+   max-width: 98% !important;
+
+}
+.p-m{
+    padding: 0;
+    margin: 0;
+}
+.lo-loges{
+    margin: 0 5px 0 5px ;
+}
+.control-dots{
+   width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.carousel-root{
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
