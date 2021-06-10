@@ -114,7 +114,7 @@ scroll(){
                     className="img-size"
                     alt="Product-overview"
                   />
-                  <p className="text p-m p-m">
+                  <p className="text  ">
                     Accelerate Your Entire Mobile Team Workflow
                   </p>
                 </div>
@@ -124,7 +124,7 @@ scroll(){
                     className="img-size m-img"
                     alt="Products-bug"
                   />
-                  <p className="text p-m">
+                  <p className="text ">
                     The Most Comprehesive Bug Reporting Tool for Mobile Apps
                   </p>
                 </div>
@@ -134,7 +134,7 @@ scroll(){
                     className="img-size"
                     alt="Products-crash"
                   />
-                  <p className="text p-m">
+                  <p className="text ">
                     Secure Crash Reporting With Real-Time Alerts
                   </p>
                 </div>
